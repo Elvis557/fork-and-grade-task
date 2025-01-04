@@ -1,0 +1,21 @@
+1. A commit is a snapshot of changes made to the files in your repository.
+
+2. A branch in Git is a separate line of development.
+
+3. A pull request (PR) is a GitHub feature used to propose changes from one branch to another.
+
+4. git init in your terminal.
+
+5. Copy the repository URL from GitHub (via the Code button).
+    git clone <repository_url>
+
+6. After making changes to your files, run the command:
+        git add <file>
+    To stage all changes, use:
+        git add .
+
+7. First, commit your changes:
+        git commit -m "Your commit message"
+    Push your changes to the remote repository:
+        git push origin <branch_name>
+
